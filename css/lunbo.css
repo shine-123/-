@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 397px;
+    height: 421px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid red;
+}
+#header-wrapper{
+    width: 397px;
+    height: 45px;
+    background: #f7faf9;
+    margin-top: 7px;
+}
+.header span{
+    float: left;
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    color: #69a88f;
+    margin-top: 12px;
+}
+.header span b{
+    float: right;
+}
+.header span i{
+    float: left;
+    width: 5px;
+    height: 20px;
+    background: #69a88f;
+}
+.header a{
+    float: right;
+    width: 45px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-right: 17px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #999;
+   
+}
+.header a i{
+    width: 15px;
+    height: 15px;
+    background: url(../img/index.png) no-repeat;
+    background-position:-561px -36px;
+    float: right;
+    margin-top: 3px;
+}
+#lunbo-wrapper{
+    width: 9999px;
+    overflow: hidden;
+    position: absolute;
+    top: 45px;
+    left: -397px;
+}
+.lunbo{
+    width: 397px;
+    height: 382px;
+    background: #fff;  
+    overflow: hidden;
+    float: left;
+    cursor: pointer;
+}
+.banner{
+    margin: 15px 20px;
+}
+.banner img{
+    width: 350px;
+    height: 150px;
+}
+.jie{
+    text-align: center;
+}
+.jie h3{
+    font-size: 16px;
+    font-weight: 0;
+}
+.jie p{
+    margin-top: 12px;
+    line-height: 20px;
+    color:  #999;
+    font-size: 12px;
+    padding: 0 40px;
+}
+.list{
+    padding: 0 25px;
+}
+.list img{
+    width: 100px;
+    height: 100px;
+}
+.nav{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -33px;
+}
+.nav ul{
+    list-style-type: none
+}
+.nav ul li{
+    width: 12px;
+    height: 6px;
+    background: #d8d8d8;
+    border-radius: 2px;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.nav ul .bg{
+    background: #69a88f;
+}
+.left-btn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -30px;
+    width: 24px;
+    height: 60px;
+    background: url(../img/index.png) no-repeat -161px -144px;
+    cursor: pointer;
+}
+.right-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -30px;
+    width: 24px;
+    height: 60px;
+    background: url(../img/index.png) no-repeat -199px -144px;
+    cursor: pointer;
+}
